@@ -1,0 +1,22 @@
+{
+  "ssl_pinning": [
+    "checkServerTrusted",
+    "checkClientTrusted",
+    "TrustManager",
+    "X509TrustManager",
+    "HostnameVerifier",
+    "verifyHostname",
+    "verify.*hostname",
+    "SSLSocketFactory",
+    "SSLContext;->init",
+    "OkHttpClient.*certificatePinner",
+    "OkHttpClient.*sslSocketFactory",
+    "SSLEngine",
+    "SSLParameters",
+    "setSSLSocketFactory",
+    "setHostnameVerifier",
+    "invoke.*->init.*SSLContext",
+    "invoke.*SSLSocketFactory",
+    "invoke.*HostnameVerifier"
+  ]
+}

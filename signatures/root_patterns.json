@@ -1,0 +1,26 @@
+{
+  "root_detection": [
+    "isDeviceRooted",
+    "checkRoot(ed)?",
+    "detectRoot",
+    "invoke.*->exec",
+    "invoke.*Runtime;->exec",
+    "const-string[^\\n]*[\"']su[\"']",
+    "const-string[^\\n]*[\"']which su[\"']",
+    "const-string[^\\n]*[\"']Superuser[\"']",
+    "const-string[^\\n]*[\"']magisk[\"']",
+    "const-string[^\\n]*[\"']frida[\"']",
+    "const-string[^\\n]*[\"']test-keys[\"']",
+    "Build;->TAGS",
+    "getprop",
+    "ro\\.secure",
+    "ro\\.debuggable",
+    "native.*check.*root",
+    "native.*detect.*root",
+    "invoke-static.*->getprop",
+    "invoke.*busybox",
+    "const-string[^\\n]*root",
+    "invoke.*getRuntime",
+    "invoke.*loadLibrary"
+  ]
+}
