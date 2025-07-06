@@ -20,7 +20,7 @@ apktool d my_app.apk -o my_app_folder
 
 2) Run auto-frida-script-generator script
 
-python main.py --input my_app_folder --output output/bypass.js
+python autofrida-main.py --input my_app_folder --output output/bypass.js
 
 
 3) Load the generated script with frida
